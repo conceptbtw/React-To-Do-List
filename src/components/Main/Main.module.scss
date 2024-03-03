@@ -1,7 +1,11 @@
+@import "/src/assets/styles/colors";
+
 .main {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 1;
+  gap: 1rem;
 }

@@ -1,5 +1,37 @@
+@import "/src/assets/styles/colors";
+
 .list {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .check {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .task {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .edit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .delete {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

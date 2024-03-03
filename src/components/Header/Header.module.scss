@@ -1,5 +1,18 @@
+@import "/src/assets/styles/colors";
+
 .header {
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      font-size: 2rem;
+    }
+  }
 }

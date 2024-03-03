@@ -4,8 +4,10 @@ import styles from "./Form.module.scss";
 export default function Form() {
   return (
     <form className={styles.form}>
-      <input className={styles.input} type="text"></input>
-      <button className={styles.button} type="submit"></button>
+      <input className={styles.input} name="input" type="text"></input>
+      <button className={styles.button} type="submit">
+        <i className="fa-solid fa-plus"></i>
+      </button>
     </form>
   );
 }

@@ -1,5 +1,19 @@
+@import "/src/assets/styles/colors";
+
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
