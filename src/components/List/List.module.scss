@@ -3,8 +3,10 @@
 .list {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 
   .item {
     width: 100%;
@@ -39,6 +41,7 @@
     }
 
     .check {
+      color: $white;
       background-color: $white;
     }
 
@@ -47,6 +50,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 1rem;
     }
 
     .edit {
@@ -55,6 +59,17 @@
 
     .delete {
       background-color: $red;
+    }
+  }
+
+  .completed {
+    .check {
+      color: $black;
+      background-color: $green;
+    }
+
+    .task {
+      text-decoration: line-through;
     }
   }
 }
