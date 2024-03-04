@@ -1,19 +1,46 @@
 @import "/src/assets/styles/colors";
 
 .form {
+  width: 100%;
+  height: 4rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 2rem;
+  outline: 0.125rem solid $black;
+  background-color: $white;
 
   .input {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    outline: none;
+    background-color: $white;
   }
 
   .button {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    border-radius: 50%;
+    outline: 0.125rem solid $black;
+    background-color: $white;
+
+    i {
+      height: 1rem;
+      width: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }

@@ -1,6 +1,8 @@
 @import "/src/assets/styles/colors";
 
 .main {
+  width: 80%;
+  max-width: 1200px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
