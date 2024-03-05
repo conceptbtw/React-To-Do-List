@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        <h1 className={styles.title}>To-Do List</h1>
+        <h1 className={styles.title}>📝 To-Do List</h1>
       </nav>
     </header>
   );
